@@ -10,4 +10,4 @@ Studyr is a app to help Chico State students get together with other learning mo
 - [XCode](https://developer.apple.com/xcode/) - For iOS builds
 - [Android Studio](https://developer.android.com/studio/install.html) - For Android builds
 - [Firebase Tools](https://github.com/firebase/firebase-tools) - Database Solution
-- [Docker] (https://www.docker.com/) - Testing and development environment
+- [Docker](https://www.docker.com/) - Testing and development environment
