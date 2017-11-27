@@ -13,6 +13,11 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { SignaturePadModule } from 'angular2-signaturepad';
 
+import { firebaseConfig } from './app.component';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireAuthModule } from 'angularfire2/auth';
+import { AngularFireDatabaseModule } from 'angularfire2/database'
+
 @NgModule({
   declarations: [
     MyApp,
@@ -25,6 +30,9 @@ import { SignaturePadModule } from 'angular2-signaturepad';
   ],
   imports: [
     BrowserModule,
+    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireDatabaseModule,
+    AngularFireAuthModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],

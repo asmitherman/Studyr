@@ -20,3 +20,11 @@ export class MyApp {
     });
   }
 }
+export const firebaseConfig = {
+    apiKey: "AIzaSyBJsdTbJuKqUwZyYGAKI7-0jogucI0PrFU",
+    authDomain: "studyr-f8e89.firebaseapp.com",
+    databaseURL: "https://studyr-f8e89.firebaseio.com",
+    projectId: "studyr-f8e89",
+    storageBucket: "studyr-f8e89.appspot.com",
+    messagingSenderId: "374490949114"
+  };
