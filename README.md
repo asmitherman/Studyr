@@ -2,7 +2,7 @@
 > A Project by Austin Ray Smitherman
 
 Studyr is a app to help Chico State students get together with other learning motivated students to work on coursework and study for exams. Forming study groups allows students to get the most out of their classes while making new friends in the process. The goal of this project is to leverage the Blackboard Learn API to pull classes from student accounts and create easy to use channels to allow classmates to meetup and communicate effectivly. 
-![Poster](https://github.com/asmitherman/Studyr/blob/master/Poster.pdf)
+![Poster](https://github.com/asmitherman/Studyr/blob/master/Poster.pdf?raw=true)
 ## Built With
 - [Ionic 3](https://ionicframework.com/) - The web framework used
 - [NodeJS](https://nodejs.org/)
